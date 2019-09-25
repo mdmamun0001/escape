@@ -1,0 +1,331 @@
+/*fons start*/
+@font-face{
+	src: url(../fonts/brand_ssv/Brandon_bld.otf);
+	font-family:Brandon_bld;
+}
+@font-face{
+	src: url(../fonts/brand_ssv/Brandon_med.otf);
+	font-family:Brandon_med;
+}
+@font-face{
+	src: url(../fonts/brand_ssv/Brandon_reg.otf);
+	font-family:Brandon_reg;
+}
+@font-face{
+	src: url(../fonts/brand_ssv/BrandonGrotesque-Light.ttf);
+	font-family:BrandonGrotesque-Light;
+}
+@font-face{
+	src: url(../fonts/cubano/Cubano.ttf);
+	font-family:Cubano;
+}
+/*fonts end*/
+body{
+	margin:0;
+	padding: 0;
+}
+
+.banner {
+
+	margin:0;
+	padding: 0;
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: center;
+}
+header{
+	padding: 45px 0;
+}
+
+.wrapper {
+	width: 70%;
+   margin:0 auto;
+   overflow: hidden;
+}
+
+
+.logo {
+		
+		width: 15%;
+		float: left;
+		overflow: hidden;
+		margin-top: 14px;
+}
+
+.logo_img {
+		
+		width: 26%;
+		float: left;
+}
+.logo_img img{
+	width: 100%;
+	display: block;
+}
+
+.logo_text {
+	
+	 width: 70%;  
+	 float: left; 
+}
+.logo_text h1{
+	font-family:Cubano;
+	font-weight: 400;
+	font-size: 24px;
+    color:#ffffff;
+	margin:0 0;
+}
+.menu{
+    width: 45.6%;
+    float: right;
+}
+.menu ul{
+     overflow: hidden;
+     float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 0 15px;
+	font-family:Brandon_med;
+	font-weight: medium;
+	font-size: 18px;
+	color:#ffffff; 
+
+}
+.menu ul li:last-child a{
+      padding-right: 0; 
+}
+.banner_content {
+	padding: 120px 0;
+}
+.banner_content h4{
+
+     text-align: center;
+     font-family:BrandonGrotesque-Light;
+     font-weight: 300;
+     font-size: 32px;
+     color: #ffffff;
+     margin-bottom: 50px;
+}
+.banner_content h2{
+	text-align: center;
+	text-transform: uppercase;
+     font-family:Brandon_bld;
+     font-weight: 700;
+     font-size: 66px;
+     color: #ffffff;
+     margin-top: 0;
+     margin-bottom: 80px;
+
+}
+.bottom_content{
+	text-align: center;
+}
+.banner_content button{
+	text-align: center;
+	padding: 8px 62px;
+	border: 2px solid white;
+	border-radius: 4px;
+     font-family:Brandon_bld;
+     font-weight: 700;
+     font-size: 23px;
+     background-color: transparent;
+     color: #ffffff;
+
+}
+/*banner menu logo end*/
+/*development start*/
+.development{
+    padding: 100px 0;
+}
+.content{
+	width: 65%;
+	float: left;
+
+}
+.content h1{
+     font-family:BrandonGrotesque-Light;
+     font-weight: 300;
+     font-size: 60px;
+     color: #222222;
+     margin-top: 0;
+     margin-bottom: 50px;
+}
+.span{
+    font-family:Brandon_bld;
+    font-weight: 700;
+}
+.content p{
+     font-family:Brandon_reg;
+     font-size: 18px;
+     color: #777777;
+     line-height: 25px;
+    word-spacing: 2px;
+    margin-top: 0;
+}
+.development_logo{
+	width: 30%;
+    float: right;
+}
+.development_logo img{
+	width: 100%;
+}
+/*development end*/
+/*branding start*/
+.branding{
+	background-color:#FAFAFA; 
+	padding: 100px 0;
+}
+.Branding_logo{
+	width: 30%;
+    float: left;
+}
+.brad_content{
+	float: right;
+}
+.Branding_logo img{
+     width: 100%;
+}
+/*branding end*/
+/*service start*/
+.service{
+padding: 100px 0;
+
+}
+.service_single{
+	 width: 47%;
+    float: left;
+    overflow: hidden;
+    padding: 10px 28px;
+}
+.service_single:nth-child(even){
+    padding-right:0;
+}
+.service_single:nth-child(odd){
+    padding-left:0;
+}
+.servise_logo{
+	width: 15%;
+	float: left;
+}
+.servise_logo img{
+	width: 100%;
+}
+.servise_content{
+     width: 75%;
+     float: right;
+}
+.servise_content h1{
+	 font-family:Brandon_med;
+     font-weight: 400;
+     font-size: 22px;
+     color: #222222;
+     margin-top: 0;
+     margin-bottom: 10px;
+}
+.servise_content p{
+	font-family:Brandon_reg;
+     font-size: 18px;
+     color: #777777;
+     line-height: 20px;
+    margin-top: 0;
+}
+/*service end*/
+
+ /*client start*/
+ .client {
+ 	background-color:#FAFAFA;
+ 	padding: 100px 0;
+}
+
+
+/*.client_top {
+}*/
+.client_top h1{
+	text-align: center;
+    font-family:BrandonGrotesque-Light;
+    font-weight: 300;
+    font-size: 60px;
+    color: #222222;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.client_top p{
+    text-align: center;
+    font-family:Brandon_reg;
+    font-weight: 400;
+    font-size: 22px;
+    color: #777777;
+    margin-top: 0;
+}
+.client_middle {
+	overflow: hidden;
+}
+
+.client_middle_img {
+	width: 22%;
+	float: left;
+}
+.client_middle_img img{
+	width: 100%;
+}
+.client_middle_discription{
+	width: 55%;
+	float: left;
+	background-color: white;
+	margin-left: 50px;
+	margin-top: 45px;
+	padding: 15px 60px;
+} 
+
+.speach{
+    font-family:Times New Roman;
+    font-weight: 400;
+    font-size: 26px;
+    color: #777777;
+    margin: 0;
+}
+.bottom{
+	margin-right: 50px;
+	margin-left: 0px;
+}
+.refrence{
+      font-family:Brandon_reg;
+    /*font-weight: 400;*/
+	font-size: 22px;
+	color: #7690c5;
+	margin: 8px;
+}
+ /*client end*/
+
+ /*add start*/
+ .advertise{
+     padding: 50px 0;
+ }
+ .wrapper2{
+ 	width: 58%;
+   margin:0 auto;
+   overflow: hidden;
+
+ }
+ .advertise_image{
+ 	width: 20%;
+    float: left;
+    padding: 0 15px; 
+    margin-top: 5px;
+ }
+ .advertise_image:nth-child(3){
+ 	 margin-top: 0px;
+ }
+ .advertise_image img{
+       width: 100%;
+ }
+ /*add end*/
